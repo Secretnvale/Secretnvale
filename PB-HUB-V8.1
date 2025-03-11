@@ -3910,70 +3910,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "troll Version",
 	Callback = function()
-      		local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-
--- Lista de usuários autorizados
-local authorizedUsers = {
-    ["AdmBrookhaven4"] = true,
-    ["sr_greg81"] = true,
-    ["TwT_perdiminhaconta"] = true,
-    ["scarys_cary66666"] = true,
-    ["AdmBrookhaven5"] = true,
-    ["kdjdhwie12"] = true,
-    ["admbughaven4"] = true,
-    ["Pguel_01"] = true,
-    ["fazolpguel2"] = true,
-    ["kdjdhwie14"] = true,
-    ["kdjdhwie13"] = true,
-    ["TemplariosHub"] = true,
-    ["j3ffwoods"] = true,
-    ["Ink_sannes13"] = true,
-    ["juninho126501"] = true,
-    ["baconbadass6"] = true,
-    ["Johnatan_FF95"] = true,
-    ["Nego_Doce144"] = true,
-    ["joaoantonio1997"] = true,
-    ["contadefarme12"] = true,
-    ["sr_greg26"] = true,
-    ["sirtjfoxy123"] = true,
-    ["samuel123456game1"] = true,
-    ["thekjahwn"] = true,
-    ["bypassadonis"] = true,
-    ["PerfFectBx4483"] = true,
-    ["breno628e5"] = true,
-    ["kdjdhwie"] = true,
-    ["SCARYS_CARY66666"] = true,
-    ["davigemes300617"] = true,
-    ["ERROR887282"] = true,
-    ["Meliodas1234328"] = true,
-    ["ajudante_Claudio"] = true,
-    ["hdqnwsn"] = true,
-    ["thek01890"] = true,
-    ["mano_shark6"] = true,
-    ["volvinhr"] = true,
-    ["KAIO_XTY"] = true,
-    ["djekejsn"] = true,
-    ["D99SHOP"] = true,
-    ["cotryball8"] = true,
-    ["ADMBROOKHAVEN6676"] = true,
-    ["cuidado_025"] = true,
-    ["PerfFectBx4483"] = true,
-    ["Mateuszinban"] = true,
-    ["nolyhaha"] = true,
-    ["mTADORDEWEB666"] = true,
-    ["contasecundariamrred"] = true,
-    ["novacontapolicebrook"] = true,
-    ["Nego_doce144"] = true,
-    ["amandabrfofinhagam2"] = true,
-}
-
--- Caso o jogador não seja autorizado, ele será kickado
-if not authorizedUsers[LocalPlayer.Name] then
-    LocalPlayer:Kick("❌️ Você não tem Permissão para Executar esse Script, fale com o criador dele para que ele libere seu acesso.")
-    return
-end
-
+ 
 
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/kiwi541/Libray-do-PB/refs/heads/main/README.md"))()
 local Window = OrionLib:MakeWindow({Name = "P.B Hub Troll V8", HidePremium = false, SaveConfig = true, ConfigFolder = "PBTrollV8", IntroText = "P.B Hub Troll V8.1", IntroIcon = "rbxassetid://132225387260946"})
